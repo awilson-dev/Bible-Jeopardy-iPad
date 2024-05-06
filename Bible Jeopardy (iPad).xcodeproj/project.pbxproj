@@ -51,6 +51,7 @@
 		0EFD689F2BE57F0500548AD6 /* howLovelyAreThyDwellings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD687E2BE57F0500548AD6 /* howLovelyAreThyDwellings.mp3 */; };
 		0EFD68A02BE57F0500548AD6 /* itWontBeLongNow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD687F2BE57F0500548AD6 /* itWontBeLongNow.mp3 */; };
 		0EFD68A12BE57F0500548AD6 /* theLordIsMyShepherd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD68802BE57F0500548AD6 /* theLordIsMyShepherd.mp3 */; };
+		0EFD68A42BE7DC3600548AD6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD68A32BE7DC3600548AD6 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,8 @@
 		0EFD687E2BE57F0500548AD6 /* howLovelyAreThyDwellings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = howLovelyAreThyDwellings.mp3; sourceTree = "<group>"; };
 		0EFD687F2BE57F0500548AD6 /* itWontBeLongNow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = itWontBeLongNow.mp3; sourceTree = "<group>"; };
 		0EFD68802BE57F0500548AD6 /* theLordIsMyShepherd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theLordIsMyShepherd.mp3; sourceTree = "<group>"; };
+		0EFD68A22BE7DA3900548AD6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0EFD68A32BE7DC3600548AD6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 		0EFD68322BE57D5600548AD6 = {
 			isa = PBXGroup;
 			children = (
+				0EFD68A22BE7DA3900548AD6 /* README.md */,
 				0EFD683D2BE57D5600548AD6 /* Bible Jeopardy (iPad) */,
 				0EFD683C2BE57D5600548AD6 /* Products */,
 			);
@@ -159,6 +163,7 @@
 				0EFD684C2BE57DE300548AD6 /* GameBoardView.swift */,
 				0EFD684E2BE57DFF00548AD6 /* MultiSelectPickerView.swift */,
 				0EFD68502BE57E1B00548AD6 /* TitleView.swift */,
+				0EFD68A32BE7DC3600548AD6 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -346,6 +351,7 @@
 				0EFD68872BE57F0500548AD6 /* Creation.swift in Sources */,
 				0EFD68912BE57F0500548AD6 /* NameThatHymn.swift in Sources */,
 				0EFD688B2BE57F0500548AD6 /* Esther.swift in Sources */,
+				0EFD68A42BE7DC3600548AD6 /* SettingsView.swift in Sources */,
 				0EFD685A2BE57E9800548AD6 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
